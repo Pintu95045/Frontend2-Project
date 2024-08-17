@@ -38,7 +38,6 @@ function removeAdmin() {
 
   arr = arr.filter(person => person.profession !== "admin");
   console.log(arr);
-
 }
 
 function concatenateArray() {
@@ -46,7 +45,7 @@ function concatenateArray() {
 
   let newArray = [
     { id: 5, name: "Nitin", age: "21", profession: "DBA" },
-    { id: 6, name: "Atul", age: "22", profession: "SDE1" },
+    { id: 6, name: "Himika", age: "26", profession: "SDE1" },
     { id: 7, name: "Akansha", age: "23", profession: "developer" }
   ];
 
